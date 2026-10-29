@@ -1,60 +1,46 @@
-
-<!DOCTYPE html>
+<!doctype html>
 <html lang="th">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<title>English Around Us</title>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#153e65"><meta name="description" content="English Around Us วิชาภาษาอังกฤษเพิ่มเติม อ32202 ม.5 โรงเรียนศรีเจริญศึกษา">
+<title>English Around Us | อ32202 ม.5</title>
 <style>
-body {
-  margin:0;
-  font-family:Arial,sans-serif;
-  background:#eef8ff;
-  text-align:center;
-  color:#16324f;
-}
-header {
-  background:linear-gradient(120deg,#04b6d9,#6f65ed);
-  padding:45px 15px;
-  color:white;
-}
-main {
-  max-width:700px;
-  margin:30px auto;
-  padding:16px;
-}
-.card {
-  background:white;
-  border-radius:20px;
-  padding:30px;
-  box-shadow:0 5px 18px #0001;
-}
-button {
-  background:#1674e5;
-  color:white;
-  border:0;
-  border-radius:12px;
-  padding:15px 25px;
-  font-size:20px;
-  cursor:pointer;
-}
+:root{--navy:#153e65;--blue:#175ea8;--teal:#13a5af;--cream:#fff8eb;--ink:#17324b;--line:#dae7ee;--yellow:#ffe49b}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:#f2f8fb;color:var(--ink);font-family:Tahoma,"Noto Sans Thai",Arial,sans-serif;font-size:18px;line-height:1.65}button,input,select{font:inherit}button{cursor:pointer}button:focus-visible,a:focus-visible,input:focus-visible{outline:3px solid #f2a900;outline-offset:3px}
+.wrap{width:min(1180px,94%);margin:auto}.top{background:#fff;position:sticky;top:0;z-index:9;box-shadow:0 3px 14px #11385510}.topin{display:flex;align-items:center;gap:18px;justify-content:space-between;padding:12px 0;flex-wrap:wrap}.brand{font-size:24px;font-weight:900;color:var(--navy);text-decoration:none}.brand span{color:#008eab}nav{display:flex;gap:6px;flex-wrap:wrap}nav a{font-size:18px;font-weight:700;color:var(--navy);padding:9px 11px;border-radius:10px;text-decoration:none}nav a:hover{background:#e5f5fc}.hero{background:linear-gradient(110deg,#125c91,#079eac 62%,#4f8ece);color:#fff;overflow:hidden}.heroin{display:grid;grid-template-columns:1.25fr .75fr;gap:20px;align-items:center;padding:55px 0 60px}.eyebrow{font-weight:800;letter-spacing:.07em;color:#fce6a6}.hero h1{font-size:clamp(46px,6vw,78px);line-height:1.1;margin:12px 0}.hero h2{font-size:clamp(28px,3vw,40px);margin:0 0 15px}.hero p{font-size:23px;max-width:690px}.illustration{min-height:270px;background:radial-gradient(circle at 50% 60%,#ccebf8 0,#b4e5ea 43%,transparent 44%);display:flex;justify-content:center;align-items:center;font-size:clamp(80px,11vw,152px);filter:drop-shadow(0 12px 5px #12405c40)}.pill{display:inline-block;background:#ffffff24;border:1px solid #ffffff50;border-radius:25px;padding:5px 15px;font-size:17px}.cta,.lightbtn,.smallbtn{border:0;border-radius:12px;font-weight:800;padding:12px 19px;background:#ffd768;color:#17324b}.lightbtn{background:#e4f5ff}.smallbtn{padding:8px 13px;font-size:17px}.cta:hover,.smallbtn:hover{filter:brightness(.95)}section{padding:38px 0;scroll-margin-top:98px}h2.sec{font-size:clamp(29px,3vw,39px);margin:0 0 9px}p.lead{margin:0 0 22px;font-size:21px}.panel,.unit,.question,.progress{background:#fff;border:1px solid var(--line);border-radius:20px;padding:22px;box-shadow:0 8px 24px #164b7110}.units{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}.unit{border-top:7px solid var(--teal)}.unit:nth-child(2){border-top-color:#ed947d}.unit:nth-child(3){border-top-color:#8f82d3}.unit:nth-child(4){border-top-color:#f4c257}.unit h3{font-size:25px;margin:6px 0}.unit p{font-size:19px}.num{color:#175eaa;font-weight:800}.controls{display:flex;gap:10px;flex-wrap:wrap;align-items:center}.detail{margin-top:20px}.hide{display:none!important}.vocab{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px;margin-top:15px}.word{background:#f1faff;border:1px solid #cfe6f2;border-radius:15px;padding:14px}.word strong{font-size:23px;display:block}.thai{font-size:21px;color:#104978;font-weight:700}.word button{margin-top:10px}.sheet{background:#fff9ec;border:1px dashed #ddab54;border-radius:14px;padding:18px}.question{margin:15px 0}.question label{display:block;padding:8px;border-radius:8px;cursor:pointer}.question label:hover{background:#eef8fb}.question input{width:20px;height:20px;vertical-align:middle}.result{font-weight:800;color:#0b6b47;font-size:22px}.note{font-size:16px;color:#4b6172}.line{border-top:1px solid var(--line);margin:18px 0}.field{padding:12px;border:1px solid #9cb5c4;border-radius:10px;width:min(100%,400px)}footer{padding:30px;background:#133a58;color:#fff}.status{font-weight:700;color:#126944}.speechoutput{background:#f1f7fc;border-radius:10px;padding:12px;min-height:56px}.grid2{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}.bar{height:15px;background:#d9e9f0;border-radius:12px;overflow:hidden}.bar>div{height:100%;background:#10a8a2;width:0;transition:width .25s}#speakStatus{min-height:30px}.linkbtn{color:#0a5795;font-weight:800}@media(max-width:800px){.heroin,.units,.grid2{grid-template-columns:1fr}.heroin{padding:32px 0}.illustration{min-height:150px;font-size:100px;order:-1}.topin{justify-content:center}nav{justify-content:center}.hero p{font-size:20px}body{font-size:18px}.unit h3{font-size:24px}nav a{font-size:17px;padding:8px}.panel,.unit{padding:18px}}@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
 </style>
 </head>
 <body>
-<header>
-  <h1>🌈 English Around Us</h1>
-  <h2>ภาษาอังกฤษรอบตัว</h2>
-</header>
-<main>
-  <div class="card">
-    <h2>🏫 โรงเรียนศรีเจริญศึกษา</h2>
-    <p>รายวิชา อ32202 ภาษาอังกฤษเพิ่มเติม ชั้น ม.5</p>
-    <p>ครูผู้สอน นายธวัฒน์ สารรัตน์</p>
-    <button onclick="alert('Welcome to English Class!')">
-      Start Learning
-    </button>
-  </div>
-</main>
-</body>
-</html>
-  
+<header class="top"><div class="wrap topin"><a class="brand" href="#home">English <span>Around Us.</span></a><nav aria-label="เมนูหลัก"><a href="#home">หน้าแรก</a><a href="#lessons">บทเรียน</a><a href="#practice">ฝึกพูด</a><a href="#quiz">แบบทดสอบ</a><a href="#worksheets">ใบงาน</a><a href="#progress">ความก้าวหน้า</a></nav></div></header>
+<div class="hero" id="home"><div class="wrap heroin"><div><div class="eyebrow">YOUR LEARNING SPACE · ENGLISH M.5</div><h1>English<br>Around Us ✦</h1><h2>ภาษาอังกฤษรอบตัว</h2><p>ฟัง · พูด · อ่าน · เขียน เรียนภาษาอังกฤษจากเรื่องใกล้ตัว พร้อมคำแปลภาษาไทยที่อ่านง่าย</p><p class="pill">อ32202 ภาษาอังกฤษเพิ่มเติม · ชั้นมัธยมศึกษาปีที่ 5</p><div class="controls"><a href="#lessons" class="cta" style="text-decoration:none">เริ่มเรียนเลย</a><a href="#practice" class="lightbtn" style="text-decoration:none">ฝึกออกเสียง</a></div></div><div class="illustration" role="img" aria-label="ภาพประกอบการ์ตูนนักเรียนเรียนภาษาอังกฤษ">👨🏻‍🎓📚👩🏻‍🎓</div></div></div>
+<div class="wrap"><section style="padding-bottom:0"><div class="panel"><strong>🏫 โรงเรียนศรีเจริญศึกษา</strong><div>ครูผู้สอน: นายธวัฒน์ สารรัตน์</div><div class="note">บทเรียนสาธิตสำหรับฝึกใช้งาน สามารถเพิ่มเอกสาร วิดีโอและแบบทดสอบจริงในภายหลัง</div></div></section>
+<section id="lessons"><h2 class="sec">📚 บทเรียนของเรา</h2><p class="lead">เลือกหน่วยการเรียนรู้ เรียนคำศัพท์ ฟังเสียง และทบทวนประโยคตัวอย่าง</p><div class="units" id="unitCards"></div><div id="lessonDetail" class="panel detail hide" aria-live="polite"></div></section>
+<section id="practice"><h2 class="sec">🎙️ ห้องฝึกพูดภาษาอังกฤษ</h2><p class="lead">ฟังประโยคก่อน แล้วทดลองออกเสียงตาม</p><div class="panel"><div class="controls"><label for="phrase">ประโยคฝึกพูด</label><select id="phrase" class="field"><option>Hello, how are you?</option><option>May I borrow your book?</option><option>Could you repeat that, please?</option><option>How much is this?</option><option>Where is the library?</option></select></div><div class="line"></div><div class="controls"><button class="cta" id="listenBtn">🔊 ฟังตัวอย่าง</button><button class="lightbtn" id="recordBtn">🎤 ลองพูด (หากอุปกรณ์รองรับ)</button></div><p id="speakStatus" class="status" role="status">กดฟังตัวอย่างเพื่อเริ่มต้น</p><div id="spoken" class="speechoutput" aria-live="polite">คำที่ระบบฟังได้จะแสดงที่นี่ หากอุปกรณ์ไม่รองรับ สามารถฝึกพูดตามเสียงได้โดยไม่ต้องใช้ไมโครโฟน</div><p class="note">การรู้จำเสียงพูดขึ้นอยู่กับเบราว์เซอร์/อุปกรณ์ และอาจต้องอนุญาตสิทธิ์ไมโครโฟน ไม่ใช่ระบบให้คะแนนการออกเสียงอย่างเป็นทางการ</p></div></section>
+<section id="quiz"><h2 class="sec">📝 แบบทดสอบทบทวน</h2><p class="lead">ตัวอย่าง 4 ข้อ ตรวจคำตอบและสรุปคะแนนได้ทันที</p><div id="quizItems"></div><button class="cta" id="submitQuiz">ตรวจคำตอบ</button><button class="lightbtn" id="retryQuiz">เริ่มทำใหม่</button><p class="result" id="quizResult" aria-live="polite"></p></section>
+<section id="worksheets"><h2 class="sec">📄 ใบงานภาษาอังกฤษ</h2><div class="grid2"><div class="panel"><h3>ใบงานที่ 1 · Daily Life</h3><div class="sheet">Fill in the blanks:<ol><li>Good ______! (ตอนเช้า)</li><li>How are ______?</li><li>Thank ______ very much.</li></ol></div><p><button class="smallbtn" onclick="window.print()">พิมพ์ใบงาน</button></p></div><div class="panel"><h3>กิจกรรมฝึกสนทนา</h3><p>ทำงานเป็นคู่ เลือกสถานการณ์จากบทเรียน แล้วสลับกันถามและตอบเป็นภาษาอังกฤษอย่างน้อย 3 ประโยค</p><p class="note">ครูสามารถแทนที่ใบงานตัวอย่างด้วยไฟล์ PDF หรือ Google Form ของชั้นเรียนในภายหลัง</p></div></div></section>
+<section id="progress"><h2 class="sec">📈 ความก้าวหน้าของฉัน</h2><div class="progress"><p>ผลแบบทดสอบที่บันทึกในเบราว์เซอร์เครื่องนี้</p><div class="bar" aria-label="ความก้าวหน้า"><div id="progressBar"></div></div><p id="progressText">ยังไม่ได้ทำแบบทดสอบ</p><p class="note">ข้อมูลนี้บันทึกเฉพาะในเบราว์เซอร์ที่ใช้งาน ไม่ส่งคะแนนให้ครูหรือ Google Sheets และอาจหายเมื่อมีการล้างข้อมูลเว็บไซต์</p></div></section>
+</div><footer><div class="wrap"><strong>English Around Us.</strong> — โรงเรียนศรีเจริญศึกษา · อ32202 ชั้น ม.5<br>เรียนรู้อย่างมั่นใจ ฝึกได้ทุกวัน</div></footer>
+<script>
+"use strict";
+const units=[
+{tag:"DAILY LIFE",name:"Hello, Everyday!",th:"ภาษาอังกฤษในชีวิตประจำวัน",words:[["greet","ทักทาย"],["borrow","ยืม"],["repeat","พูดซ้ำ"],["explain","อธิบาย"],["submit","ส่งงาน"],["thank you","ขอบคุณ"]],sentence:"Could you repeat that, please?",translation:"คุณช่วยพูดซ้ำอีกครั้งได้ไหม"},
+{tag:"FOOD & DRINKS",name:"A Taste of English",th:"อาหารและเครื่องดื่ม",words:[["menu","เมนูอาหาร"],["order","สั่งอาหาร"],["water","น้ำ"],["delicious","อร่อย"],["breakfast","อาหารเช้า"],["bill","ใบเสร็จหรือบิลค่าอาหาร"]],sentence:"May I have some water, please?",translation:"ขอน้ำสักหน่อยได้ไหม"},
+{tag:"PLACES & DIRECTIONS",name:"Find Your Way",th:"สถานที่และการบอกทาง",words:[["library","ห้องสมุด"],["canteen","โรงอาหาร"],["office","สำนักงาน"],["left","ซ้าย"],["right","ขวา"],["straight","ตรงไป"]],sentence:"Where is the school office?",translation:"สำนักงานโรงเรียนอยู่ที่ไหน"},
+{tag:"SHOPPING",name:"Shop & Talk",th:"ซื้อสินค้าและสนทนา",words:[["price","ราคา"],["size","ขนาด"],["cheap","ราคาถูก"],["expensive","ราคาแพง"],["cash","เงินสด"],["receipt","ใบเสร็จรับเงิน"]],sentence:"How much is this shirt?",translation:"เสื้อตัวนี้ราคาเท่าไร"}];
+const qbank=[
+{q:"คำว่า borrow หมายถึงอะไร",choices:["ยืม","คืน","ซื้อ"],a:0},
+{q:"ถ้าต้องการให้เพื่อนพูดซ้ำ ควรพูดว่าอะไร",choices:["Thank you.","Could you repeat that, please?","Goodbye."],a:1},
+{q:"library หมายถึงสถานที่ใด",choices:["โรงอาหาร","ห้องสมุด","ห้องพยาบาล"],a:1},
+{q:"How much is this? ใช้ในสถานการณ์ใด",choices:["ถามราคา","ถามชื่อ","บอกเวลา"],a:0}];
+function speak(t){if(!("speechSynthesis" in window)){document.getElementById("speakStatus").textContent="อุปกรณ์นี้ไม่รองรับเสียงสังเคราะห์";return}speechSynthesis.cancel();const u=new SpeechSynthesisUtterance(t);u.lang="en-US";u.rate=.82;u.onstart=()=>document.getElementById("speakStatus").textContent="กำลังเล่นเสียงภาษาอังกฤษ";u.onend=()=>document.getElementById("speakStatus").textContent="ฟังจบแล้ว ลองพูดตามได้เลย";u.onerror=()=>document.getElementById("speakStatus").textContent="ไม่สามารถเล่นเสียงได้ กรุณาลองใหม่";speechSynthesis.speak(u)}
+const unitCards=document.getElementById("unitCards");
+units.forEach((u,i)=>{const card=document.createElement("article");card.className="unit";card.innerHTML='<div class="num">UNIT 0'+(i+1)+' · '+u.tag+'</div><h3>'+u.name+'</h3><p class="thai">'+u.th+'</p><p>6 คำศัพท์ · ประโยคฝึกพูด</p>';const b=document.createElement("button");b.className="smallbtn";b.textContent="เปิดบทเรียน";b.onclick=()=>openUnit(i);card.appendChild(b);unitCards.appendChild(card)});
+function openUnit(i){let u=units[i];const dest=document.getElementById("lessonDetail");dest.classList.remove("hide");dest.replaceChildren();const h=document.createElement("h2");h.textContent="UNIT 0"+(i+1)+" · "+u.name;dest.appendChild(h);const intro=document.createElement("p");intro.className="thai";intro.textContent=u.th;dest.appendChild(intro);const words=document.createElement("div");words.className="vocab";u.words.forEach(pair=>{const w=document.createElement("div");w.className="word";const en=document.createElement("strong");en.textContent=pair[0];const th=document.createElement("div");th.className="thai";th.textContent=pair[1];const btn=document.createElement("button");btn.className="smallbtn";btn.textContent="🔊 ฟังคำศัพท์";btn.onclick=()=>speak(pair[0]);w.append(en,th,btn);words.appendChild(w)});dest.appendChild(words);const sentence=document.createElement("p");sentence.innerHTML="<strong>ประโยคตัวอย่าง:</strong> ";sentence.append(document.createTextNode(u.sentence+" — "+u.translation));dest.appendChild(sentence);const listen=document.createElement("button");listen.className="smallbtn";listen.textContent="🔊 ฟังประโยค";listen.onclick=()=>speak(u.sentence);dest.appendChild(listen);dest.scrollIntoView({behavior:"smooth",block:"start"})}
+document.getElementById("listenBtn").onclick=()=>speak(document.getElementById("phrase").value);
+document.getElementById("recordBtn").onclick=()=>{const SR=window.SpeechRecognition||window.webkitSpeechRecognition;const status=document.getElementById("speakStatus");if(!SR){status.textContent="เบราว์เซอร์นี้ไม่รองรับการรู้จำเสียงพูด ให้กดฟังตัวอย่างแล้วพูดตามแทนได้ครับ";return}try{const rec=new SR();rec.lang="en-US";rec.interimResults=false;rec.maxAlternatives=1;rec.onstart=()=>status.textContent="กำลังฟัง... พูดประโยคภาษาอังกฤษได้เลย";rec.onresult=e=>{document.getElementById("spoken").textContent="ระบบได้ยิน: "+e.results[0][0].transcript;status.textContent="รับเสียงแล้ว ลองฟังและฝึกซ้ำได้"};rec.onerror=e=>{status.textContent="ไม่สามารถรับเสียง ("+e.error+") — อนุญาตไมโครโฟนหรือใช้วิธีฟังแล้วพูดตาม"};rec.onend=()=>{if(status.textContent.startsWith("กำลังฟัง"))status.textContent="จบการฟังแล้ว"};rec.start()}catch(e){status.textContent="ระบบไม่สามารถเริ่มไมโครโฟนได้ กรุณาใช้ฟังแล้วพูดตาม"}};
+const quiz=document.getElementById("quizItems");qbank.forEach((q,i)=>{const div=document.createElement("div");div.className="question";const title=document.createElement("h3");title.textContent=(i+1)+". "+q.q;div.appendChild(title);q.choices.forEach((c,j)=>{const label=document.createElement("label");const inp=document.createElement("input");inp.type="radio";inp.name="q"+i;inp.value=j;label.append(inp,document.createTextNode(" "+c));div.appendChild(label)});quiz.appendChild(div)});
+function renderProgress(){let score=null;try{const saved=localStorage.getItem("english-around-us-quiz");if(saved!==null)score=Number(saved)}catch(e){}if(score!==null&&Number.isFinite(score)){document.getElementById("progressBar").style.width=score/qbank.length*100+"%";document.getElementById("progressText").textContent="คะแนนล่าสุด "+score+" / "+qbank.length+" ข้อ"}}
+document.getElementById("submitQuiz").onclick=()=>{let score=0;for(let i=0;i<qbank.length;i++){const a=document.querySelector('input[name="q'+i+'"]:checked');if(!a){document.getElementById("quizResult").textContent="กรุณาตอบให้ครบทุกข้อก่อนตรวจคำตอบ";return}if(Number(a.value)===qbank[i].a)score++}document.getElementById("quizResult").textContent="ได้ "+score+" / "+qbank.length+" คะแนน";try{localStorage.setItem("english-around-us-quiz",String(score))}catch(e){}renderProgress()};
+document.getElementById("retryQuiz").onclick=()=>{document.querySelectorAll('#quizItems input').forEach(x=>x.checked=false);document.getElementById("quizResult").textContent=""};
+renderProgress();
+</script></body></html>
